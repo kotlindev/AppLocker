@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="cn.studyjams.s2.sj0194.applock">
+
+    <uses-permission android:name="android.permission.GET_TASKS" /><!--获取任务栈的权限2-->
+
+    <!--高版本获取栈信息-->
+    <uses-permission
+        android:name="android.permission.PACKAGE_USAGE_STATS"
+        tools:ignore="ProtectedPermissions" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /><!--启动完成-->
+    <uses-permission android:name="android.permission.REBOOT" /><!--重启-->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_square_blue"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <!--1.Activity-->
+        <activity
+            android:name=".activity.FirstActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.HomeActivity"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.HelpingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AllAppListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SetPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.FeedBackActivity"
+            android:screenOrientation="portrait" />
+        <!--输入密码的Activity，启动的Activity会开启一个新的Task并独享-->
+        <!--同时，android:excludeFromRecents="true"，不让应用在最近任务栏中显示-->
+        <activity
+            android:name=".activity.EnterPasswordActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+
+
+        <!--2.Service-->
+        <!--注册应用锁服务-->
+        <service android:name=".service.AppLockService" />
+
+
+        <!--3.BroadcastReceiver-->
+        <!--静态注册广播接收者，开机启动服务实现-->
+        <receiver android:name=".receiver.BootBroadCast">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.REBOOT" />
+                <action android:name="android.intent.action.DATA_STATE" />
+                <action android:name="android.intent.action.PACKAGE_RESTARTED" />
+            </intent-filter>
+        </receiver>
+        <!--锁屏广播接收者，因为锁屏广播不能在4.0后使用，而USER_PRESENT是用户在唤醒设备的时候会发出，所以可以使用其代替-->
+        <receiver android:name=".receiver.ScreenBroadcast">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

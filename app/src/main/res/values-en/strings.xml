@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--英语-->
+    <string name="app_name">AppLocker</string>
+
+    <!--帮助文字-->
+    <string name="help_des">In order to ensure that the AppLocker can be normal service, please apply the permission requested for the AppLocker</string>
+    <string name="help_content">\t\tThank you for using the AppLocker!\n\n\t\tI am an Android beginner, this APP is my use of spare time to learn, spare time to develop.
+    \n\n\t\tBecause of I am lack of coding experience, so the development process is very hard, in order to complete this APP, stay up late until two o‘clock in the morning sometimes, repeatedly write function, repair bug. And finally passed the functional test.
+        \n\n\t\tDue to the variety of Android devices, so the adaptation process may inevitably appear compatibility issues, please understand that if you use the APP of any problems, very much looking forward to and thank you for your feedback.\n\n\t\tThank you faithfully!</string>
+    <string name="system_app">System APP：</string>
+    <string name="user_app">User APP：</string>
+    <string name="locked_app">Locked APP：</string>
+
+    <string name="activity_about_app_name">AppLocker</string>
+    <string name="activity_about_addition">Version</string>
+    <string name="activity_about_app_dev">Developer</string>
+    <string name="activity_about_title">About</string>
+    <string name="activity_about_website">Personal Website</string>
+
+    <string name="activity_app_list_lock_manage">APP Lock Manage</string>
+    <string name="activity_app_liat_system_app_num">System APP</string>
+    <string name="activity_app_list_user_app_num">User APP</string>
+    <string name="activity_app_list_locked_app">APP Lock State</string>
+
+    <string name="input_password_hint">Please inter the password</string>
+
+    <string name="activity_feedback_title">Feedback</string>
+    <string name="activity_feedback_input_hint">suggestion or opinion</string>
+    <string name="activity_feedback_des">Welcome you to the AppLocker to make valuable suggestions or comments, I will be based on your feedback to improve the application.</string>
+    <string name="activity_feedback_confirm">Commit</string>
+
+    <string name="activity_set_password_title">Reset password</string>
+    <string name="activity_set_password_des">Please set password</string>
+
+    <string name="activity_setting_title">Setting</string>
+    <string name="activity_setting_lock_state">The application lock function is turned off</string>
+    <string name="activity_setting_lock_style">Unlock style</string>
+    <string name="activity_setting_reset_password">Reset password</string>
+    <string name="activity_setting_saved_password">Please enter the original password</string>
+
+    <string name="dialog_set_style">Locker style</string>
+    <string name="dialog_set_style_normal">Default style</string>
+    <string name="dialog_set_style_circle">Round style</string>
+    <string name="dialog_set_style_confirm">Confirm</string>
+    <string name="dialog_set_style_cancel">Cancel</string>
+
+    <string name="fragment_setting_setting">Setting</string>
+    <string name="fragment_setting_helping">Helping</string>
+    <string name="fragment_setting_feedback">Feedback</string>
+    <string name="fragment_setting_about">About</string>
+
+    <string name="dialog_show_my_message_title">Welcome !</string>
+    <string name="dialog_show_my_message">Thank you very much for your free use! Our application without any screen advertising, if you have any suggestions or comments, please give us feedback!</string>
+    <string name="dialog_show_my_message_confirm">Confirm</string>
+
+    <string name="home_activity_toast_content">Please open the AppLocker requested permissions</string>
+    <string name="home_activity_share_content">I am using the AppLocker, great, you can also experience it :http://jkdev.cn</string>
+    <string name="home_activity_viewpager_title1">App locker</string>
+    <string name="home_activity_viewpager_title2">Setting</string>
+
+    <string name="toast_content_passwoed_error">wrong password</string>
+
+    <string name="first_activity_short_hint">The password length can not be less than 4</string>
+    <string name="first_activity_confirm_hint">Please confirm your password!</string>
+    <string name="first_activity_different_hint">Two passwords are not the same, please re-set</string>
+    <string name="first_activity_set_password_hint">set password</string>
+    <string name="first_activity_set_fisrt_password_hint">Please set the initial password</string>
+    <string name="first_activity_saved_password_hint">The application lock password has been saved</string>
+
+    <string name="set_password_activity_enter_new_password_hint">Please enter a new password</string>
+    <string name="set_password_activity_verified">Verification is successful</string>
+    <string name="set_password_activity_password_error">wrong password</string>
+    <string name="set_password_activity_short_hint">The password length can not be less than 4</string>
+    <string name="set_password_activity_confirm_hint">Please confirm your password!</string>
+    <string name="set_password_activity_confirm_new_hint">Confirm the new password!</string>
+    <string name="set_password_activity_different_hint">Two passwords are not the same, please re-set</string>
+    <string name="set_password_activity_enter_new_hint">Please enter a new password</string>
+    <string name="set_password_activity_saved_hint">The application lock password has been saved</string>
+
+    <string name="setting_activity_open_hint">The application lock function is turned on</string>
+    <string name="setting_activity_close_hint">The application lock function is turned off</string>
+
+    <string name="app_item_system_app">System APP</string>
+    <string name="app_item_user_app">User APP</string>
+
+    <string name="helping_activity_title">Helping</string>
+
+    <string name="feedback_succeed_toast">Submit success and thank you for your feedback</string>
+    <string name="feedback_failure_toast">Submit failed, please check your network connection</string>
+
+    <string name="locked_app_hint">prompt!</string>
+    <string name="locked_app_hint_des">Are you sure you want to delete the current application?</string>
+    <string name="locked_app_hint_confirm">Confirm</string>
+    <string name="locked_app_hint_cancel">Cancel</string>
+</resources>

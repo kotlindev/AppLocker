@@ -1,0 +1,93 @@
+<resources>
+    <!--默认使用中国大陆简体汉语-->
+    <string name="app_name">软件锁</string>
+
+    <!--帮助文字-->
+    <string name="help_des">为了确保软件锁能正常服务，请使手机管家取消对软件锁的屏蔽</string>
+    <string name="help_content">\t\t感谢您使用软件锁！\n\n\t\t我是一个Android初学者，此APP是我利用课余时间学习、课余时间开发的Google StudyJams 2017 的大作业APP。
+    \n\n\t\t由于自己的编码经验不足，所以开发过程十分辛苦，为了完成此APP，多次熬夜至凌晨两点，反复地编写功能，修复bug。最终顺利通过了功能测试。
+        \n\n\t\t由于Android设备五花八门，所以适配过程中或许难免出现兼容性的问题，敬请您谅解，如果您在使用过程中出现任何问题，十分期待和感谢您的反馈。\n\n\t\t忠诚地感谢！</string>
+    <string name="system_app">系统应用：</string>
+    <string name="user_app">用户应用：</string>
+    <string name="locked_app">已加锁应用：</string>
+
+    <string name="activity_about_app_name">软件锁</string>
+    <string name="activity_about_addition">软件版本</string>
+    <string name="activity_about_app_dev">APP作者</string>
+    <string name="activity_about_title">关于</string>
+    <string name="activity_about_website">个人主页</string>
+
+    <string name="activity_app_list_lock_manage">加锁应用管理</string>
+    <string name="activity_app_liat_system_app_num">系统应用数目</string>
+    <string name="activity_app_list_user_app_num">用户应用数目</string>
+    <string name="activity_app_list_locked_app">应用加锁信息</string>
+
+    <string name="input_password_hint">请输入解锁密码</string>
+
+    <string name="activity_feedback_title">反馈</string>
+    <string name="activity_feedback_input_hint">提交bug/建议或者意见</string>
+    <string name="activity_feedback_des">欢迎您为软件锁提出宝贵的建议或者意见，我会根据您的的反馈来改善软件锁</string>
+    <string name="activity_feedback_confirm">提交反馈</string>
+
+    <string name="activity_set_password_title">密码重置</string>
+    <string name="activity_set_password_des">请设置密码</string>
+
+    <string name="activity_setting_title">设置</string>
+    <string name="activity_setting_lock_state">应用锁功能已关闭</string>
+    <string name="activity_setting_lock_style">解锁风格</string>
+    <string name="activity_setting_reset_password">密码重置</string>
+    <string name="activity_setting_saved_password">请输入原始密码</string>
+
+    <string name="dialog_set_style">应用锁风格</string>
+    <string name="dialog_set_style_normal">默认风格</string>
+    <string name="dialog_set_style_circle">圆形风格</string>
+    <string name="dialog_set_style_confirm">确认</string>
+    <string name="dialog_set_style_cancel">取消</string>
+
+    <string name="fragment_setting_setting">设置</string>
+    <string name="fragment_setting_helping">帮助</string>
+    <string name="fragment_setting_feedback">反馈</string>
+    <string name="fragment_setting_about">关于</string>
+
+    <string name="dialog_show_my_message_title">感谢！</string>
+    <string name="dialog_show_my_message">十分感谢您的免费使用！我们的应用无任何插屏广告，如果您有什么建议或者意见，欢迎向我们反馈！</string>
+    <string name="dialog_show_my_message_confirm">确认</string>
+
+    <string name="home_activity_toast_content">请为软件锁开启所需的权限</string>
+    <string name="home_activity_share_content">我正在使用软件锁，很棒，你也体验一下吧http://jkdev.cn</string>
+    <string name="home_activity_viewpager_title1">应用加锁</string>
+    <string name="home_activity_viewpager_title2">设置</string>
+
+    <string name="toast_content_passwoed_error">密码错误</string>
+
+    <string name="first_activity_short_hint">密码长度不能小于4</string>
+    <string name="first_activity_confirm_hint">请确认密码！</string>
+    <string name="first_activity_different_hint">两次密码不一样，请重新设置</string>
+    <string name="first_activity_set_password_hint">设置密码</string>
+    <string name="first_activity_set_fisrt_password_hint">请设置初始密码</string>
+    <string name="first_activity_saved_password_hint">软件锁密码已保存</string>
+
+    <string name="set_password_activity_enter_new_password_hint">请输入新密码</string>
+    <string name="set_password_activity_verified">验证成功</string>
+    <string name="set_password_activity_password_error">密码错误</string>
+    <string name="set_password_activity_short_hint">密码长度不能小于4</string>
+    <string name="set_password_activity_confirm_hint">请确认新密码！</string>
+    <string name="set_password_activity_confirm_new_hint">确认新密码！</string>
+    <string name="set_password_activity_different_hint">两次密码不一样，请重新设置</string>
+    <string name="set_password_activity_enter_new_hint">请输入新密码</string>
+    <string name="set_password_activity_saved_hint">应用锁密码已保存</string>
+
+    <string name="setting_activity_open_hint">软件锁功能已开启</string>
+    <string name="setting_activity_close_hint">软件锁功能已关闭</string>
+    <string name="app_item_system_app">系统软件</string>
+    <string name="app_item_user_app">用户软件</string>
+
+    <string name="helping_activity_title">帮助</string>
+
+    <string name="feedback_succeed_toast">提交成功，感谢您的反馈</string>
+    <string name="feedback_failure_toast">提交失败，请检查您的网络连接</string>
+    <string name="locked_app_hint">提示！</string>
+    <string name="locked_app_hint_des">确定删除当前应用？</string>
+    <string name="locked_app_hint_confirm">确定</string>
+    <string name="locked_app_hint_cancel">取消</string>
+</resources>

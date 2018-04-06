@@ -39,6 +39,6 @@ git clone https://github.com/kotlinup/AppLocker.git
 3.使用Android Studio倒入即可
 
 ## 2. 联系开发者：
-(1)邮箱：i@jkdev.cn<br>
+(1)邮箱：i@panhongyuan.com<br>
 (2)微信订阅：极客开发者up<br>
 ![极客开发者up](https://jkdev.cn/img/wechat.jpg)

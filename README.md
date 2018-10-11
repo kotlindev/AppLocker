@@ -10,8 +10,6 @@
 # 《九宫格锁》
 代码阅读对象：Android 开发者，望项目代码对您有利参考。
 
-表情画板，使用画笔完成基本画画，最后保存到存储卡。需要读取存储卡的权限才能保存图片。
-
 <a href="http://android.myapp.com/myapp/detail.htm?apkName=cn.studyjams.s2.sj0194.applock&apkCode=5">应用宝下载apk包</a>
 
 ## 免责声明
